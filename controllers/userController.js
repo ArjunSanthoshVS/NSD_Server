@@ -107,8 +107,8 @@ module.exports = {
                     },
                 ],
                 mode: 'payment',
-                success_url: 'http://localhost:5173/congradulations',
-                cancel_url: 'http://localhost:5173/congradulations',
+                success_url: 'https://nsd-ekck.onrender.com/congradulations',
+                cancel_url: 'https://nsd-ekck.onrender.com/congradulations',
             });
             try {
                 await payment.save();
